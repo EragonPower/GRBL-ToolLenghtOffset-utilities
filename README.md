@@ -1,2 +1,2 @@
-# GRBL-ToolLenghtOffset-utilities
-GRBL Macros for managing Tool Lenght Offset in UGS (https://github.com/winder/Universal-G-Code-Sender)
+# ToolLengthtOffset Utilities Plugin for UGS
+Plugin for managing Tool Lenght Offset and tool change for UGS (https://github.com/winder/Universal-G-Code-Sender)
