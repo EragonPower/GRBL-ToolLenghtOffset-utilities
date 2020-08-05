@@ -1,0 +1,121 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: net/eragonpower/TLOUtilities/Bundle.
+ properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Implementation-Version: 1.0
+OpenIDE-Module-Build-Version: 202008051036
+OpenIDE-Module: net.eragonpower.TLOUtilities.TLOUtilities
+OpenIDE-Module-Public-Packages: -
+OpenIDE-Module-Display-Category: net.eragonpower.TLOUtilities
+OpenIDE-Module-Name: TLOUtilities
+OpenIDE-Module-Short-Description: TLOUtilities helps you managing Tool
+  Length Offsets while doing manual tool change
+OpenIDE-Module-Long-Description: TLOUtilities helps you managing Tool 
+ Length Offsets while doing manual tool change
+X-Class-Path: ext/net.eragonpower.TLOUtilities.TLOUtilities/com-willwi
+ nder-universalgcodesender/ugs-core.jar ext/net.eragonpower.TLOUtiliti
+ es.TLOUtilities/javax-websocket/javax.websocket-client-api.jar ext/ne
+ t.eragonpower.TLOUtilities.TLOUtilities/org-glassfish-tyrus-bundles/t
+ yrus-standalone-client.jar ext/net.eragonpower.TLOUtilities.TLOUtilit
+ ies/org-jogamp-gluegen/gluegen-rt-main.jar ext/net.eragonpower.TLOUti
+ lities.TLOUtilities/org-jogamp-gluegen/gluegen-rt.jar ext/net.eragonp
+ ower.TLOUtilities.TLOUtilities/org-jogamp-gluegen/gluegen-rt-natives-
+ android-aarch64.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/org
+ -jogamp-gluegen/gluegen-rt-natives-android-armv6.jar ext/net.eragonpo
+ wer.TLOUtilities.TLOUtilities/org-jogamp-gluegen/gluegen-rt-natives-l
+ inux-amd64.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/org-joga
+ mp-gluegen/gluegen-rt-natives-linux-armv6.jar ext/net.eragonpower.TLO
+ Utilities.TLOUtilities/org-jogamp-gluegen/gluegen-rt-natives-linux-ar
+ mv6hf.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/org-jogamp-gl
+ uegen/gluegen-rt-natives-linux-i586.jar ext/net.eragonpower.TLOUtilit
+ ies.TLOUtilities/org-jogamp-gluegen/gluegen-rt-natives-macosx-univers
+ al.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/org-jogamp-glueg
+ en/gluegen-rt-natives-solaris-amd64.jar ext/net.eragonpower.TLOUtilit
+ ies.TLOUtilities/org-jogamp-gluegen/gluegen-rt-natives-solaris-i586.j
+ ar ext/net.eragonpower.TLOUtilities.TLOUtilities/org-jogamp-gluegen/g
+ luegen-rt-natives-windows-amd64.jar ext/net.eragonpower.TLOUtilities.
+ TLOUtilities/org-jogamp-gluegen/gluegen-rt-natives-windows-i586.jar e
+ xt/net.eragonpower.TLOUtilities.TLOUtilities/org-jogamp-jogl/jogl-all
+ -main.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/org-jogamp-jo
+ gl/jogl-all.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/org-jog
+ amp-jogl/jogl-all-natives-android-aarch64.jar ext/net.eragonpower.TLO
+ Utilities.TLOUtilities/org-jogamp-jogl/jogl-all-natives-android-armv6
+ .jar ext/net.eragonpower.TLOUtilities.TLOUtilities/org-jogamp-jogl/jo
+ gl-all-natives-linux-amd64.jar ext/net.eragonpower.TLOUtilities.TLOUt
+ ilities/org-jogamp-jogl/jogl-all-natives-linux-armv6.jar ext/net.erag
+ onpower.TLOUtilities.TLOUtilities/org-jogamp-jogl/jogl-all-natives-li
+ nux-armv6hf.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/org-jog
+ amp-jogl/jogl-all-natives-linux-i586.jar ext/net.eragonpower.TLOUtili
+ ties.TLOUtilities/org-jogamp-jogl/jogl-all-natives-macosx-universal.j
+ ar ext/net.eragonpower.TLOUtilities.TLOUtilities/org-jogamp-jogl/jogl
+ -all-natives-solaris-amd64.jar ext/net.eragonpower.TLOUtilities.TLOUt
+ ilities/org-jogamp-jogl/jogl-all-natives-solaris-i586.jar ext/net.era
+ gonpower.TLOUtilities.TLOUtilities/org-jogamp-jogl/jogl-all-natives-w
+ indows-amd64.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/org-jo
+ gamp-jogl/jogl-all-natives-windows-i586.jar ext/net.eragonpower.TLOUt
+ ilities.TLOUtilities/javax-vecmath/vecmath.jar ext/net.eragonpower.TL
+ OUtilities.TLOUtilities/javax-media/jmf.jar ext/net.eragonpower.TLOUt
+ ilities.TLOUtilities/org-swinglabs/swing-layout.jar ext/net.eragonpow
+ er.TLOUtilities.TLOUtilities/com-google-code-gson/gson.jar ext/net.er
+ agonpower.TLOUtilities.TLOUtilities/org-apache-commons/commons-lang3.
+ jar ext/net.eragonpower.TLOUtilities.TLOUtilities/commons-io/commons-
+ io.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/org-scream3r/jss
+ c.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/com-fazecast/jSer
+ ialComm.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/com-google-
+ guava/guava.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/com-goo
+ gle-guava/failureaccess.jar ext/net.eragonpower.TLOUtilities.TLOUtili
+ ties/com-google-guava/listenablefuture.jar ext/net.eragonpower.TLOUti
+ lities.TLOUtilities/com-google-code-findbugs/jsr305.jar ext/net.erago
+ npower.TLOUtilities.TLOUtilities/org-checkerframework/checker-qual.ja
+ r ext/net.eragonpower.TLOUtilities.TLOUtilities/com-google-errorprone
+ /error_prone_annotations.jar ext/net.eragonpower.TLOUtilities.TLOUtil
+ ities/com-google-j2objc/j2objc-annotations.jar ext/net.eragonpower.TL
+ OUtilities.TLOUtilities/org-codehaus-mojo/animal-sniffer-annotations.
+ jar ext/net.eragonpower.TLOUtilities.TLOUtilities/com-miglayout/migla
+ yout.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/org-apache-com
+ mons/commons-csv.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/ne
+ t-glxn/qrgen.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/com-go
+ ogle-zxing/javase.jar ext/net.eragonpower.TLOUtilities.TLOUtilities/c
+ om-beust/jcommander.jar ext/net.eragonpower.TLOUtilities.TLOUtilities
+ /com-google-zxing/core.jar
+Maven-Class-Path: com.willwinder.universalgcodesender:ugs-core:2.0-SNA
+ PSHOT javax.websocket:javax.websocket-client-api:1.0 org.glassfish.ty
+ rus.bundles:tyrus-standalone-client:1.16 org.jogamp.gluegen:gluegen-r
+ t-main:2.3.2 org.jogamp.gluegen:gluegen-rt:2.3.2 org.jogamp.gluegen:g
+ luegen-rt:2.3.2:natives-android-aarch64 org.jogamp.gluegen:gluegen-rt
+ :2.3.2:natives-android-armv6 org.jogamp.gluegen:gluegen-rt:2.3.2:nati
+ ves-linux-amd64 org.jogamp.gluegen:gluegen-rt:2.3.2:natives-linux-arm
+ v6 org.jogamp.gluegen:gluegen-rt:2.3.2:natives-linux-armv6hf org.joga
+ mp.gluegen:gluegen-rt:2.3.2:natives-linux-i586 org.jogamp.gluegen:glu
+ egen-rt:2.3.2:natives-macosx-universal org.jogamp.gluegen:gluegen-rt:
+ 2.3.2:natives-solaris-amd64 org.jogamp.gluegen:gluegen-rt:2.3.2:nativ
+ es-solaris-i586 org.jogamp.gluegen:gluegen-rt:2.3.2:natives-windows-a
+ md64 org.jogamp.gluegen:gluegen-rt:2.3.2:natives-windows-i586 org.jog
+ amp.jogl:jogl-all-main:2.3.2 org.jogamp.jogl:jogl-all:2.3.2 org.jogam
+ p.jogl:jogl-all:2.3.2:natives-android-aarch64 org.jogamp.jogl:jogl-al
+ l:2.3.2:natives-android-armv6 org.jogamp.jogl:jogl-all:2.3.2:natives-
+ linux-amd64 org.jogamp.jogl:jogl-all:2.3.2:natives-linux-armv6 org.jo
+ gamp.jogl:jogl-all:2.3.2:natives-linux-armv6hf org.jogamp.jogl:jogl-a
+ ll:2.3.2:natives-linux-i586 org.jogamp.jogl:jogl-all:2.3.2:natives-ma
+ cosx-universal org.jogamp.jogl:jogl-all:2.3.2:natives-solaris-amd64 o
+ rg.jogamp.jogl:jogl-all:2.3.2:natives-solaris-i586 org.jogamp.jogl:jo
+ gl-all:2.3.2:natives-windows-amd64 org.jogamp.jogl:jogl-all:2.3.2:nat
+ ives-windows-i586 javax.vecmath:vecmath:1.5.2 javax.media:jmf:2.1.1e 
+ org.swinglabs:swing-layout:1.0.3 com.google.code.gson:gson:2.8.6 org.
+ apache.commons:commons-lang3:3.9 commons-io:commons-io:2.6 org.scream
+ 3r:jssc:2.8.0 com.fazecast:jSerialComm:2.6.2 com.google.guava:guava:2
+ 8.1-jre com.google.guava:failureaccess:1.0.1 com.google.guava:listena
+ blefuture:9999.0-empty-to-avoid-conflict-with-guava com.google.code.f
+ indbugs:jsr305:3.0.2 org.checkerframework:checker-qual:2.8.1 com.goog
+ le.errorprone:error_prone_annotations:2.3.2 com.google.j2objc:j2objc-
+ annotations:1.3 org.codehaus.mojo:animal-sniffer-annotations:1.18 com
+ .miglayout:miglayout:3.7.4 org.apache.commons:commons-csv:1.7 net.glx
+ n:qrgen:1.4 com.google.zxing:javase:3.4.0 com.beust:jcommander:1.72 c
+ om.google.zxing:core:3.4.0
+OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
+ n/1 > 1.31.1, org.openide.windows > 6.80.1, org.openide.util > 9.11.1
+ , org.openide.util.ui > 9.12.1, org.openide.util.lookup > 8.37.1, org
+ .openide.awt > 7.72.1, org.netbeans.modules.settings/1 > 1.53.1, com.
+ willwinder.ugs.platform.ugslib > 2.0.0.2020.07.30.23.49
+

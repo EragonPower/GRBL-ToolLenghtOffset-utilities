@@ -16,24 +16,22 @@
  */
 package net.eragonpower.TLOUtilities;
 
-import com.willwinder.universalgcodesender.AbstractController;
 import com.willwinder.universalgcodesender.gcode.GcodePreprocessorUtils;
 import com.willwinder.universalgcodesender.gcode.GcodeState;
 import com.willwinder.universalgcodesender.gcode.util.GcodeParserException;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.Locale;
 import java.util.regex.Pattern;
-import org.openide.util.Exceptions;
 
 /**
  *
  * @author Omega 7
  */
 public class M6CommandProcessor implements CommandProcessor {
-    
-    private final String dwellCommand;
+
+    public String preProbeGCode = "";
+    public String ProbeGCode = "";
+    public String postProbeGCode = "";
 
     // Contains an T & M6 commandì
     Pattern ToolChangePattern = Pattern.compile("[tT\"1\"-9\"]+[\\s]+[mM]+[6]|[tT\"1\"-9\"]+[mM]+[6]");
@@ -41,33 +39,24 @@ public class M6CommandProcessor implements CommandProcessor {
     String cmd = "";
     String Tool = cmd.substring(cmd.indexOf("T") + 1, cmd.indexOf("M"));
 
-    /*public M6CommandProcessor(double dwellDuration) {
-    this.dwellCommand = String.format(Locale.ROOT, "G4P%.2f", dwellDuration);
-    }*/
+    public M6CommandProcessor(double dwellDuration) {
+        preProbeGCode = "G4P%.2f";
+    }
 
     @Override
     public List<String> processCommand(String command, GcodeState state) throws GcodeParserException {
         String noComments = GcodePreprocessorUtils.removeComment(command);
         if (ToolChangePattern.matcher(noComments).matches()) {
-            try {
-                AbstractController.pauseStreaming();
-                /*return Arrays.asList(command, dwellCommand);*/
-            } catch (Exception ex) {
-                Exceptions.printStackTrace(ex);
-            }
+
+            return Arrays.asList(ToolChangePattern.matcher(command).replaceAll(""));
 
         }
         /*return Collections.singletonList(command);*/
         return null;
     }
-    
-    
-    
-    
+
     @Override
     public String getHelp() {
         return "Adds settings and generate code for helping with tool changes and Tool Length Offsets.";
     }
 }
-
-
